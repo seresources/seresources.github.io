@@ -1,11 +1,97 @@
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<!doctype html>
 
-<h1>Hello World</h1>
-<p>Test.</p>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+
+	<title>About</title>
+	<meta name="description" content="website">
+	<meta name="author" content="website">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:site_name" content="website">
+	<meta property="og:title" content="About">
+	<meta property="og:url" content="https://seresources.github.io">
+	<meta property="og:description" content="website">
+	<link rel="canonical" href="https://seresources.github.io">
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Имя автора",
+			"url": "https://ваш-логин.github.io"
+		}
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="stylesheet" href="/assets/css/main.css">-->
+</head>
+
+<body class="layout--single wide">
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">website</a>
+        <ul class="visible-links">
+			<li class="masthead__menu-item"><a href="/">Page1</a></li>
+			<li class="masthead__menu-item"><a href="/research/">Page2</a></li>
+			<li class="masthead__menu-item"><a href="/gallery/">Page3</a></li>
+			<li class="masthead__menu-item"><a href="/posts/">Page4</a></li>
+		</ul>
+		
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+		
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="initial-content">
+	<div id="main" role="main">
+		<div class="sidebar sticky">
+			<div itemscope itemtype="https://schema.org/Person" class="h-card">
+				<div class="author__avatar">
+					<a href=""><img src="" alt="website" itemprop="image" class="u-photo"></a>
+				</div>
+
+				<div class="author__content">
+				<h3 class="author__name p-name" itemprop="name"><a class="u-url" rel="me" href="" itemprop="url">website</a></h3>
+				</div>
+
+			</div>
+
+			<article class="page h-entry" itemscope itemtype="https://">
+				<meta itemprop="headline" content="About">
+				<div class="page__inner-wrap">
+					<section class="page__content e-content" itemprop="text">
+						<figure>
+							<img src="">
+							<figcaption></figcaption>
+						</figure>
+					</section>
+					<footer class="page__meta"></footer>     
+				</div>
+			</article>
+
+		</div>
+	</div>
+</div>
+
+<div id="footer" class="page__footer">
+	<footer>
+		<div class="page__footer-follow"></div>
+		<div class="page__footer-copyright">Powered by</div>
+	</footer>
+</div>
+
+<script src="/assets/js/main.min.js"></script>
 
 </body>
 </html>
