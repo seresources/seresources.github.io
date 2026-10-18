@@ -51,16 +51,6 @@ masthead__inner-wrap::after {
     clear: both
 }
 
-.masthead__menu .site-nav {
-    margin-left: 0
-}
-
-@media (min-width: 37.5em) {
-    .masthead__menu .site-nav {
-        float:right
-    }
-}
-
 .masthead__menu ul {
     margin: 0;
     padding: 0;
@@ -72,11 +62,6 @@ masthead__inner-wrap::after {
     display: block;
     list-style-type: none;
     white-space: nowrap
-}
-
-.masthead__menu-item--lg {
-    padding-right: 2em;
-    font-weight: 700
 }
 
 
