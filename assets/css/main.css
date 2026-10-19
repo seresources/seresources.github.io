@@ -1,5 +1,5 @@
 .page__footer {
-    color: #fff !important
+    color: #fff !important /* Set color */
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
@@ -501,7 +501,7 @@ a:focus,button:focus {
 
 html {
     box-sizing: border-box;
-    background-color: #eee;
+    background-color: #eee;  /* Set color */
     font-size: 16px;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -635,7 +635,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: #222831;
+    color: #222831; /* Set color */
     font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
     line-height: 1.5
 }
@@ -1729,7 +1729,7 @@ blockquote.notice--danger {
 
 .masthead {
     position: relative;
-    border-bottom: 1px solid #cecfd1;
+    border-bottom: 1px solid #cecfd1; /* Set color */
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.15s;
@@ -2001,7 +2001,7 @@ blockquote.notice--danger {
     -ms-flex-align: center;
     align-items: center;
     min-height: 2em;
-    background: #eee
+    background: #eee /* Set color */
 }
 
 .greedy-nav a {
@@ -2133,14 +2133,14 @@ blockquote.notice--danger {
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: #eee transparent;
+    border-color: #eee transparent; /* Set color */
     display: block;
     z-index: 1
 }
 
 .greedy-nav .hidden-links li {
     display: block;
-    border-bottom: 1px solid #cecfd1
+    border-bottom: 1px solid #cecfd1 /* Set color */
 }
 
 .greedy-nav .hidden-links li:last-child {
@@ -2397,7 +2397,7 @@ blockquote.notice--danger {
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.45s;
     animation-delay: 0.45s;
-    background-color: #0092ca
+    background-color: #0092ca /* Set color */
 }
 
 .page__footer::after {
@@ -3173,7 +3173,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     position: relative;
     width: 1.5rem;
     height: .25rem;
-    background: #0092ca;
+    background: #0092ca; /* Set color */
     margin: auto;
     -webkit-transition: 0.3s;
     transition: 0.3s
@@ -3185,7 +3185,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     left: 0;
     width: 1.5rem;
     height: .25rem;
-    background: #0092ca;
+    background: #0092ca; /* Set color */
     -webkit-transition: 0.3s;
     transition: 0.3s
 }
@@ -3229,7 +3229,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
         width: 100%;
         height: 100%;
         opacity: 0;
-        background-color: #eee;
+        background-color: #eee; /* Set color */
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         pointer-events: none
