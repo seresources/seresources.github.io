@@ -3,7 +3,7 @@
 */
 
 .page__footer {
-    color: #fff !important /* Set color */
+    color: #fff !important /* Set color footer text */
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
@@ -634,7 +634,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: #ccd4de; /* Set text color */
+    color: #ccd4de; /* Set color text */
     font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
     line-height: 1.5
 }
@@ -1728,7 +1728,7 @@ blockquote.notice--danger {
 
 .masthead {
     position: relative;
-    border-bottom: 1px solid #ffffff; /* Set line under up menu color */
+    border-bottom: 1px solid #ffffff; /* Set color line under up menu*/
     -webkit-animation: intro 0.3s both;
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.15s;
@@ -2000,7 +2000,7 @@ blockquote.notice--danger {
     -ms-flex-align: center;
     align-items: center;
     min-height: 2em;
-    background: #081a34 /* Set menu color */
+    background: #081a34 /* Set color menu  */
 }
 
 .greedy-nav a {
