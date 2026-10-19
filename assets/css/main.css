@@ -2013,7 +2013,7 @@ blockquote.notice--danger {
 }
 
 .greedy-nav a:hover {
-    color: #222831
+    color: #ffffff /* Set color text menu touched*/
 }
 
 .greedy-nav a.site-logo {
