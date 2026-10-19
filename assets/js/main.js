@@ -943,36 +943,6 @@ function(e) {
     }),
     i()
 }),
-function(e, c) {
-    var r, t = e.jQuery || e.Cowboy || (e.Cowboy = {});
-    t.throttle = r = function(o, i, a, s) {
-        var l, u = 0;
-        function e() {
-            var e = this
-              , t = +new Date - u
-              , n = arguments;
-            function r() {
-                u = +new Date,
-                a.apply(e, n)
-            }
-            s && !l && r(),
-            l && clearTimeout(l),
-            s === c && o < t ? r() : !0 !== i && (l = setTimeout(s ? function() {
-                l = c
-            }
-            : r, s === c ? o - t : o))
-        }
-        return "boolean" != typeof i && (s = a,
-        a = i,
-        i = c),
-        t.guid && (e.guid = a.guid = a.guid || t.guid++),
-        e
-    }
-    ,
-    t.debounce = function(e, t, n) {
-        return n === c ? r(e, t, !1) : r(e, n, !1 !== t)
-    }
-}(this),
 function(e, t) {
     "function" == typeof define && define.amd ? define([], function() {
         return t(e)
