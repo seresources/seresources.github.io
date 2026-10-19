@@ -489,8 +489,8 @@ img.mfp-img {
 }
 
 a:focus,button:focus {
-    outline: thin dotted #0092ca;
-    outline: 5px auto #0092ca;
+    outline: thin dotted #0092ca; /* Set color frame around button*/
+    outline: 5px auto #0092ca; /* Set color frame around button*/
     outline-offset: -2px
 }
 
@@ -725,11 +725,11 @@ blockquote cite:before {
 }
 
 a:visited {
-    color: #575b62
+    color: #575b62 /* Set color circle circle left part */
 }
 
 a:hover {
-    color: #2b2f35;
+    color: #2b2f35; /* Set color circle left part */
     outline: 0
 }
 
@@ -2068,8 +2068,8 @@ blockquote.notice--danger {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 4px;
-    background: #0092ca;
+    height: 1px;
+    background: #ffffff; /* Set color text menu underline*/
     width: 100%;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -2089,9 +2089,9 @@ blockquote.notice--danger {
     right: 0;
     margin-top: 15px;
     padding: 5px;
-    border: 1px solid #cecfd1;
+    border: 1px solid #0b49c4; /* Set color hidden menu frame color*/
     border-radius: 4px;
-    background: #eee;
+    background: #081a34; /* Set color hidden menu background color*/
     -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
 }
