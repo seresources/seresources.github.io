@@ -4590,7 +4590,7 @@ body {
 
 .sidebar .author__name {
     font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-    font-size: 1.4em
+    font-size: 1em  /* set size text */
 }
 
 .author__bio {
