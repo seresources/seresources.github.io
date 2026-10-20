@@ -4523,8 +4523,8 @@ body {
 .author__avatar {
     display: table-cell;
     vertical-align: top;
-    width: 36px;
-    height: 36px
+    width: 60px; /* Set size of small logo*/
+    height: 60px /* Set size of small logo*/
 }
 
 @media (min-width: 64em) {
@@ -4536,21 +4536,21 @@ body {
 }
 
 .author__avatar img {
-    max-width: 110px;
-    border-radius: 50%
+    max-width: 200px; /* Set size max size*/
+    border-radius: 5% /* Set size radius*/
 }
 
 @media (min-width: 64em) {
     .author__avatar img {
-        padding:5px;
-        border: 1px solid #cecfd1
+        padding:0px;
+        border: 1px solid #ccd4de; /* Set color circle frame*/
     }
 }
 
 .author__content {
     display: table-cell;
     vertical-align: top;
-    padding-left: 15px;
+    padding-left: 20px; /* Set position text*/
     padding-right: 25px;
     line-height: 1
 }
@@ -4573,16 +4573,16 @@ body {
     margin: 0
 }
 
-@media (min-width: 64em) {
+@media (min-width: 6em) { /* Set position text*/
     .author__name {
-        margin-top:10px;
+        margin-top:15px; /* Set position text*/
         margin-bottom: 10px
     }
 }
 
 .sidebar .author__name {
     font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-    font-size: 1em
+    font-size: 1.4em
 }
 
 .author__bio {
