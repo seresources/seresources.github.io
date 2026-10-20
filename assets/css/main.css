@@ -4580,6 +4580,14 @@ body {
     }
 }
 
+@media (max-width: 63.99em) {
+    .author__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em 1.5em;   /* set text gap */
+    }
+}
+
 .sidebar .author__name {
     font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
     font-size: 1.4em
